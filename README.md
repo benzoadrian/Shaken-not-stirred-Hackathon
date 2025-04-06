@@ -25,7 +25,10 @@ TORNIQUET is an advanced medical AI agent designed to streamline patient access 
 - **Doctolib Integration**: Seamless connection to our clinic's Doctolib scheduling system
 - **Real-time Availability**: Check current appointment slots without leaving WhatsApp
 
+<img src="https://github.com/user-attachments/assets/0cec188b-5203-48be-a7b4-e25f12852413" alt="drawing" width="500px"/>
+
 ## How It Works
+
 1. Send a message to our WhatsApp number describing your medical needs:
    - Example: "I have severe lower back pain that started yesterday"
    - Example: "I need to see Dr. Martinez for a follow-up"
@@ -44,7 +47,7 @@ Our repository is organized into the following main directories:
 
 - **LLM&Scraper**: Contains the language model implementation and web scraping components that power TORNIQUET's natural language understanding and Doctolib data extraction
   
-- **front-end**: The user interface components for admin dashboard and monitoring tools
+- **[front-end](http://shaken-front.s3-website-us-west-2.amazonaws.com/)**: The user interface components for admin dashboard and monitoring tools
 
 - **save-clinic-details**: Scripts and utilities for saving and managing clinic information in our database
 
@@ -53,6 +56,8 @@ Our repository is organized into the following main directories:
 - **whatsapp-webhook**: Webhook implementation for receiving and processing incoming WhatsApp messages from users
 
 Each component works together to create a seamless experience from receiving patient messages to booking appropriate appointments.
+
+<img src="https://github.com/user-attachments/assets/c1eac770-1592-44d2-9019-eb40f3ceaf21" alt="drawing" width="500px"/>
 
 ## Privacy and Security
 TORNIQUET prioritizes patient privacy and data security. All conversations are encrypted and medical information is handled in compliance with healthcare privacy regulations. Patient data is only used to facilitate appointment bookings and improve service quality.
@@ -67,12 +72,9 @@ TORNIQUET prioritizes patient privacy and data security. All conversations are e
 ## Support
 If you experience any issues with TORNIQUET or need assistance:
 - **Help Command**: Send "HELP" to our WhatsApp number
-- **Email Support**: [support@torniquet.ai](mailto:support@torniquet.ai)
-- **Clinic Phone**: Call our front desk during business hours at +XX XX XX XX XX
-
-## About Our Clinic
-TORNIQUET is currently implemented at [Clinic Name], providing our patients with convenient access to our healthcare professionals. Our team of specialists covers multiple medical disciplines to address a wide range of health concerns.
 
 ---
 
 TORNIQUET - Connecting Patients with Healthcare, One Message at a Time
+
+![image](https://github.com/user-attachments/assets/675b227e-9ba7-4516-8021-1510b290e524)
